@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.boddy {
+  background-color: rgb(232, 233, 234);
+  width: 100%;
+  height: 80vh;
+}
+
+ .nav{
+  width: 100%;
+  height: fit-content;
+  background-color: #e40000;
+  padding: 0.3rem 19rem 1rem;
+}
+
+.nav img {
+  width: 11rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 3px;
+  padding: 4rem 17rem;
+}
+
+.container-two-img img {
+  height: fit-content;
+}
+.form {
+  padding: 2rem 7rem;
+}
+.container-two-text {
+  width: 30rem;
+  /* height: fit-content; */
+  height: 30rem;
+  background-color: ivory;
+  padding: 14px 0 19px;
+}
+.rem-for-container .rem{
+  padding: 0.1em;
+}
+#number {
+  width: 17rem;
+  height: 3.5rem;
+  border: 0.5px solid rgb(180, 180, 180);
+  outline: none;
+  padding-left: 1rem;
+}
+
+#number:focus {
+  border: 0.5px solid rgb(51, 234, 106);
+}
+
+#password {
+  width: 17rem;
+  height: 3.5rem;
+  border: 0.5px solid rgb(180, 180, 180);
+  outline: none;
+  padding-left: 1rem;
+}
+#password:focus {
+  border: 0.5px solid rgb(51, 234, 106);
+}
+
+.mini-text {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 1.3rem;
+  font-size: 25px;
+}
+
+.rem-for-container {
+  padding-top: 0rem;
+  display: flex;
+  gap: 1.4rem;
+  justify-content: center;
+}
+.rem {
+  color: rgb(180, 180, 180);
+  font-size: 14px;
+}
+.for a {
+  font-size: 14px;
+  color: #4eb14b;
+}
+.keep {
+  color: rgb(180, 180, 180);
+  margin-top: 0.3rem;
+  margin-left: 3.2rem;
+  font-size: 14px;
+}
+.logins {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.2rem;
+  font-size: 17px;
+}
+.logins button {
+  width: 18.8rem;
+  height: fit-content;
+  padding: 0.5rem;
+  color: ivory;
+  background-color: #0d9737;
+  border-radius: 0.3rem;
+  outline: none;
+  border: #0d9737;
+}
+.terms{
+  font-size: 11px;
+  display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 1.4rem;
+}
+
+
+footer {
+  width: 70em;
+  height: 20vh;
+  background: #1b1e25;
+  border-top: 1px solid #3d3d3d;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.sporty-img img {
+  width: 11rem;
+}
